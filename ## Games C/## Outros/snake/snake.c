@@ -23,28 +23,21 @@ int main() {
 	cursor(0);
 	
 	textcolor(BLUE);
-	do
-	{
+	do {
 		system("clear");
 		printf("== SNAKE GAME  ==  \nDigite (acima de 0) a quantidade de maçãs que você deseja capturar: ");
 		scanf("%d", &totalapple);
 	} while (totalapple < 1);
 	
-	
-	
-	
-	do
-	{
+	do {
 		system("clear");
 		textcolor(BLUE);
 		
 		media = (float)passos/captura;	
-		printf("== SNAKE GAME  ==   Passos: %d   Maçãs: %d/%d   Média: %.2f (%d/%d)\n", passos, captura, totalapple, media, x, y);
+		printf("== SNAKE GAME  ==   Passos: %d   Maçãs: %d/%d   Média: %.2f\n", passos, captura, totalapple, media);
 		textcolor(PURPLE);
 		printf("Controles: (W) - Cima (S) - Baixo (A) - Esquerda (D) - Direita\n");
 		textcolor(GREEN);
-
-		
 			
 		if(captura == totalapple) {
 			tabela(15);
@@ -59,8 +52,6 @@ int main() {
 			
 		tabela(20);
 		textcolor(YELLOW);
-		
-
 		gotoxy(x, y);  printf("%c", snake);
 		textcolor(RED);
 		gotoxy(xa, ya);  printf("%c", apple);

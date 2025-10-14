@@ -17,7 +17,9 @@ int main( ) {
 	srand(time(NULL));
 	int X, contador=0, array[100];
 
-	do {
+	for (int i = 0; i < 100 ; i++) 
+			array[i] =  1 + rand()%20;
+	do  {
 		 printf("Insira um valor entre 01 e 20 (Valores <= 0 finaliza o programa)\n > ");
 		 scanf(" %d", &X);
 		 
@@ -25,19 +27,15 @@ int main( ) {
 			break;
 			
 		 for (int i = 0; i < 100 ; i++) {
-			array[i] = rand()%20 + 1;
 			printf("\n %02d", array[i]);
 			if(array[i] == X) {
 			   printf(" *");
 			   contador+=1;
 			}
-		 }
+		}
 		 printf ("\n O número %d foi sorteado %d vezes.\n", X, contador);
 	} while (1);
-	
 
-	
-		
         return 0;
 }
 

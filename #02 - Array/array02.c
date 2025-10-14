@@ -21,8 +21,8 @@ int main( ) {
 	scanf(" %d", &vezesN);
 	
 	for (int i = 0; i < vezesN; i++) {
-		face = rand()%6 + 1;
-		dado[face-1] += 1; 
+		face = 1 + rand()%6;
+		dado[face-1]++; 
 		
 	}
 	printf("\n O dado foi jogado %d vezes! Confira os resultados: \n\n", vezesN);

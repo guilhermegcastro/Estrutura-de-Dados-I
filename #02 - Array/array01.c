@@ -34,6 +34,7 @@ int main( ) {
 			}
 		}
 		 printf ("\n O número %d foi sorteado %d vezes.\n", X, contador);
+		 contador=0;
 	} while (1);
 
         return 0;

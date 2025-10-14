@@ -22,14 +22,8 @@ int main( ) {
 	
 	for (int i = 0; i < vezesN; i++) {
 		face = rand()%6 + 1;
-		switch (face) {
-			case 1: dado[0] += 1; break;
-			case 2: dado[1] += 1; break;
-			case 3: dado[2] += 1; break; 
-			case 4: dado[3] += 1; break;
-			case 5: dado[4] += 1; break;
-			case 6: dado[5] += 1; break;
-		}
+		dado[face-1] += 1; 
+		
 	}
 	printf("\n O dado foi jogado %d vezes! Confira os resultados: \n\n", vezesN);
 	
@@ -40,4 +34,3 @@ int main( ) {
 		
         return 0;
 }
-

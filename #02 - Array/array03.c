@@ -1,73 +1,63 @@
 /**
  * @file array03.c
  * @author Guilherme Castro
- * @date 2025-10-13
- * @brief 
- * Enunciado: Crie um vetor contendo N números aleatórios (sendo N múltiplo de 4). Imprima-o.
- *  Após isso, troque a metade inicial pela metade final. Imprima-o.
- *  Por fim, para cada metade inicial, troque também as sub-metades. Imprima-o.
+ * @date 2025-10-15
+ * @brief
+ * Enunciado: 3. Faça um programa que preencha um vetor com N números inteiros aleatórios, sorteados no intervalo entre 0 e X. 
+ * O programa deve imprimir os números sorteados, e ao final o seguinte resumo:
+ * a) Quantos números distintos foram sorteados.
+ * b) As posições (índices) do maior e do menor valor.
+ * c) O(s) número(s) mais vezes sorteado, e quantas vezes.
+ * d) O(s) número(s) menos vezes sorteado, e quantas vezes.
  */
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <time.h>
 
-int main( ) {
+int main() {
 	
 	srand(time(NULL));
-	int numero; 
+	int X, cont=0;
 	
-	do {
-		system("clear");
-		printf("Informe o tamanho do vetor (Precisa ser múltiplo de 4!)\n  > ");
-		scanf(" %d", &numero);
-	} while (numero%4!=0);
+	printf("Insira o número do intervalo: ");
+	scanf(" %d", &X);
+	int vetor[X];
 	
-	int vetor[numero];
-	
-	printf("Lista de vetores:\n");
-	
-	for (int i = 0; i < numero; i++) { // IMPRESSÃO DA PRIMEIRA LISTA
-		vetor[i] = rand()%(numero+1); 
+	printf(" Sorteio de números entre 0 e %d\n ", X);
+	for (int i = 0; i < X; i++){
+		vetor[i] = 1 + rand()%(X-1);
 		printf("[%d] ", vetor[i]);
 	}
 	
-	printf("\n\n Lista de vetores com as metades trocadas:\n");
-	
-	for (int i = 0, j; i < numero; i++) { // IMPRESSÃO DA SEGUNDA LISTA
-	
-		if (i < numero/2) { // Se o contador for menor que a metade do número inserido pelo usuário, ele fára a troca de lugar dos vetores da primeira metade pela segunda metade.
-			j = vetor[i]; 
-			vetor[i] = vetor[numero/2+i]; 
-			vetor[numero/2+i] = j;
-		}
-		printf("[%d] ", vetor[i]);
-	}
-	
-	printf("\n\n Lista de vetotres com as submetades trocadas:\n");
-	
-	for (int i = 0, j; i < numero/2; i++) {
-		if(i < numero/4) {
-			j = vetor[i];
-			vetor[i] = vetor[numero/4+i];
-			vetor[numero/4+i] = j; 
-		}
-		printf("[%d] ", vetor[i]);
-		
-	}
-	
-	for (int i = 0, j; i < numero/2; i++) {
-		
-		if((i+numero/2)< numero/4 + numero/2) {
+	for (int i = 0; i < X; i++){
+		int flag = 1;
+		for (int j = 0; j < X; j++){
 			
-			j = vetor[i+numero/2];
-			vetor[i+numero/2] = vetor[numero/4+numero/2+i];
-			vetor[numero/4+numero/2+i] = j; 
+			if ((vetor[i]==vetor[j]) && (i!=j))	{
+				flag = 0;
+				break;
+			}
 		}
-		printf("[%d] ", vetor[i+numero/2]);
+		if (flag){
+			cont+=1;
+		}
+	}
+	printf("\n Quantidades de números distintos: %d\n", cont);
+	
+	int maior=0, menor=0;
+	for (int i = 0; i < X; i++) {
+		if (!i) {
+			maior = i;
+			menor = i;
+			continue;
+		}
+		maior = (vetor[i] > maior) ? i : maior;
+		menor = (vetor[i] < menor) ? i : menor;	
 	}
 	
-		return 0;
+		printf("\n Índice do maior número: %d\n Índice do menor número: %d", maior, menor);
+        return 0;
 }
-	
-	
+

@@ -1,7 +1,7 @@
 
 /**
  * @file Dojo Coding 01 (Caça ao Número).c
- * @author Guilherme Castro, Eleissa Oliveira, Maria Vitória Medrado, Arthur
+ * @author @guilhermegcastro, @arthurgxtz-exe, @mvmedrados, Eleissa Oliveira
  * @date 2025-10-02
  * @brief
  */

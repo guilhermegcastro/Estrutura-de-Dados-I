@@ -1,5 +1,5 @@
 /**
- * @file dojo.c
+ * @file Dojo Coding 03 (Memória Numérica).c
  * @author  @guilhermegcastro, @mvmedrados, @taynara6, Eleissa Oliveira
  * @date 2025-10-15
  * @brief

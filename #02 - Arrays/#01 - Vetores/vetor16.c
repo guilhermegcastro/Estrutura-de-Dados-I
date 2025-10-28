@@ -41,15 +41,24 @@ int main() {
 	organizar(gaveta3);
 	gaveta(3, gaveta3);
   
-	gavetao[30];
-    
-    
-    for (i = 0; i < 10; i++){
-	
-		if(gaveta1)
-	
-	
+	int gavetao[30];
+    int idx1, idx2, idx3;
+    idx1 = idx2 = idx3 = 0;
+    for (int i = 0; i < 30; i++) {
+		
+		if (idx1 < 10 && (idx2 >= 10 || (gaveta1[idx1] <= gaveta2[idx2]) && (idx3 >= 10 || gaveta1[idx1] <= gaveta3[idx3]))){
+			gavetao[i] = gaveta1[idx1];
+			idx1++;
+		} else if (idx2 < 10  && (idx3 >= 10 || gaveta2[idx2] <= gaveta3[idx3])){
+			gavetao[i] = gaveta2[idx2];
+			idx2++;
+		} else {
+			gavetao[i] = gaveta3[idx3];
+			idx3++;
+		}
+		printf("[%d] ", gavetao[i]);
 	}
+    
     
     
     

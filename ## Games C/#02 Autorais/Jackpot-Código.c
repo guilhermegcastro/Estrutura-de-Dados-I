@@ -12,7 +12,7 @@
 int main() {	
 	
 	srand(time(NULL));
-	char  moneyName[] = "pontos";
+	char  moneyName[] = "lulas";
 	char icon [19] = {'*', '#', '%', '@', '!', '$', '*', '#', '%', '@', '#', '*', '@', '#', '%', '@', '!', '$', '7'}, icon1=icon[18], icon2=icon[18], icon3=icon[18], bicon1=icon[17], bicon2=icon[17], bicon3=icon[17], aicon1=icon[0], aicon2=icon[0], aicon3=icon[0];
 	int  menu=1, money = 3000, moneyAll=0, first, spin=1, jp1=0, jp2=0, jp3=0, jp4=0, jp5=0, jp6=0, jp7=0, win=0, multiplier, jpX=1, moneyX=1; 
 	/*O Programa sempre inicia com o jackpot em 7 7 7. */

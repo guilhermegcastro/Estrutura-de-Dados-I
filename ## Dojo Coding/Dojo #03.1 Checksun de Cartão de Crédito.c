@@ -1,6 +1,6 @@
 /**
  * @file    dojocoding05.c
- * @author  @guilhermegcastro, 
+ * @author  @guilhermegcastro
  * @date    2025-10-23
  * @brief   Soma de Verificação (Checksun)
  */

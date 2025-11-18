@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-
+#define MAX 10
 typedef	struct{
 	char rua[100];
 	int numero;
@@ -29,7 +29,7 @@ typedef	struct{
 }Pessoa;
 
 int main(){
-	Pessoa cadastro[10];
+	Pessoa cadastro[MAX];
 	int cd = 0;
 	
 	while(cd<10) {
@@ -56,6 +56,12 @@ int main(){
 		scanf(" %[^\n]s", cadastro[cd].residencia.cidade);
 		system("clear");
 		cd++;
+		if(cd==MAX) {
+		printf("Limite máximo do cadastro atingido. Aperte Enter para prosseguir.\n");
+		while(getchar()!='\n');
+		getchar();
+		}
+		
 	}
 	
 

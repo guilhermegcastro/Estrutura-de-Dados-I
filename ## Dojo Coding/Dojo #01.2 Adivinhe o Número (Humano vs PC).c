@@ -1,6 +1,6 @@
 /**
  * @file Dojo Coding 02 (Adivinhe o Número).c
- * @author Guilherme Castro
+ * @author @guilhermegcastro
  * @date 2025-10-03
  * @brief
  */

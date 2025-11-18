@@ -11,9 +11,7 @@
 #include <string.h>
 #include <time.h>
 
-int main()
-
-{
+int main() {
 	srand(time(NULL));
 	int n1, n2, n3, resposta, acertos=0, dificuldade; 
 	

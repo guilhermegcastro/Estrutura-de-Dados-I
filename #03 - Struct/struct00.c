@@ -30,49 +30,50 @@ typedef	struct{
 
 int main(){
 	Pessoa cadastro[10];
-	int cadastrados = 0;
+	int cd = 0;
 	
-	for (int i = 0; i < 10; i++) {
-		printf(" : CADASTRO DA %dª PESSOA (digite 'EXIT' no nome para finalizar) : \n", i+1);
+	while(cd<10) {
+		printf(" : CADASTRO DA %dª PESSOA (digite 'EXIT' no nome para finalizar) : \n", cd+1);
 		printf("Insira o nome\n > ");
-		scanf(" %[^\n]s", cadastro[i].nome);
-		if(strcmp(cadastro[i].nome, "EXIT") == 0)
+		scanf(" %[^\n]s", cadastro[cd].nome);
+		if(strcmp(cadastro[cd].nome, "EXIT") == 0)
 			break;
 		printf("Insira o CPF\n > ");
-		scanf(" %s", cadastro[i].cpf);
+		scanf(" %s", cadastro[cd].cpf);
 		printf("Insira a idade\n > ");
-		scanf(" %d", &cadastro[i].idade);
+		scanf(" %d", &cadastro[cd].idade);
 		printf("Insira a altura\n > ");
-		scanf(" %f", &cadastro[i].altura);
+		scanf(" %f", &cadastro[cd].altura);
 		printf("Insira o peso \n > ");
-		scanf(" %f", &cadastro[i].peso);
+		scanf(" %f", &cadastro[cd].peso);
 		printf("Insira o nome da rua\n > ");
-		scanf(" %[^\n]s", cadastro[i].residencia.rua);
+		scanf(" %[^\n]s", cadastro[cd].residencia.rua);
 		printf("Insira o número de residência \n > ");
-		scanf(" %d", &cadastro[i].residencia.numero);
+		scanf(" %d", &cadastro[cd].residencia.numero);
 		printf("Insira o nome do bairro \n > ");
-		scanf(" %[^\n]s", cadastro[i].residencia.bairro);
+		scanf(" %[^\n]s", cadastro[cd].residencia.bairro);
 		printf("Insira o nome da cidade\n > ");
-		scanf(" %[^\n]s", cadastro[i].residencia.cidade);
+		scanf(" %[^\n]s", cadastro[cd].residencia.cidade);
 		system("clear");
-		cadastrados++;
+		cd++;
 	}
 	
-	int ordenado;
-	do {
-		ordenado=1;
-		for (int i = 1; i < cadastrados; i++) {
-			if (strcmp(cadastro[i].nome, cadastro[i-1].nome) < 0 ) {
+
+	for (int i = 0; i < cd-1; i++) {
+		for (int j = 0; j < cd-i-1; j++) {
+			if (strcmp(cadastro[j].nome, cadastro[j+1].nome) > 0 ) {
 				Pessoa troca;
-				troca = cadastro[i];
-				cadastro[i] = cadastro[i-1];
-				cadastro[i-1] = troca;
-				ordenado = 0;
+				troca = cadastro[j];
+				cadastro[j] = cadastro[j+1];
+				cadastro[j+1] = troca;
 			}
 		}
-	} while (!ordenado);
+	}
+		
+
+
 	system("clear");
-	for (int i = 0; i < cadastrados; i++) {
+	for (int i = 0; i < cd; i++) {
 		printf(" - DADOS - \n Nome: %s\n CPF: %s\n"
 			   " Idade: %d\n Altura: %.2f\n Peso:%.2f\n"
 			   " - ENDEREÇO - :\n Rua: %s\n Número: %d\n Bairro: %s\n Cidade: %s\n\n",

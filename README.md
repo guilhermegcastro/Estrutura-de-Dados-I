@@ -36,11 +36,11 @@ A estrutura foi pensada para mostrar a progressão da aprendizagem:
 A teoria é importante, mas a prática é onde a diversão começa. Separei seções especiais para aplicações criativas:
 
 ### 🕹️ Games C
-Na pasta **`Games C`**, exploro a lógica de programação através do desenvolvimento de jogos. É a prova de que C não serve apenas para calcular médias ou ordenar listas!
+Na pasta **`## Games C`**, exploro a lógica de programação através do desenvolvimento de jogos. É a prova de que C não serve apenas para calcular médias ou ordenar listas!
 * *Foco:* Lógica de estado, loops de jogo e interatividade no terminal.
 
 ### 🥋 Dojo Coding
-A pasta **`Dojo Coding`** contém exercícios resolvidos em formato de *Coding Dojo*.
+A pasta **`## Dojo Coding`** contém exercícios resolvidos em formato de *Coding Dojo*.
 * *Objetivo:* Resolução colaborativa de problemas, foco em "Clean Code" e melhoria contínua da lógica algorítmica (frequentemente em colaboração, como visto nos commits).
 
 ---

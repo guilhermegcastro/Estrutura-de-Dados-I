@@ -1,8 +1,3 @@
-Com certeza. Aqui tens o código atualizado. Removi os botões de contacto (LinkedIn/Email) e criei uma secção dedicada ("Games & Coding Dojos") para destacar a parte mais prática e divertida do teu repositório.
-
-Copia o código abaixo e substitui no teu ficheiro `README.md`:
-
-````markdown
 # 📚 Estrutura de Dados I
 
 ![C Language](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white)

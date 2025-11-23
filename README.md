@@ -98,12 +98,9 @@ Alguns dos conceitos chave explorados neste repositório:
 
 ## 🤝 Autor
 
-\<div align="center"\>
-\<a href="https://www.google.com/search?q=https://github.com/guilhermegcastro"\>
-\<img src="https://www.google.com/search?q=https://github.com/guilhermegcastro.png" width="100px;" alt="Foto do Guilherme Castro"/\><br>
-\<b\>Guilherme Castro\</b\>
-\</a\>
-\</div\>
-
-```
-```
+<div align="center"\>
+<a href="https://www.google.com/search?q=https://github.com/guilhermegcastro"\>
+<img src="https://www.google.com/search?q=https://github.com/guilhermegcastro.png" width="100px;" alt="Foto do Guilherme Castro"/\><br>
+<b\>Guilherme Castro\</b\>
+</a\>
+</div\>

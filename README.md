@@ -62,7 +62,7 @@ Para rodar qualquer código deste repositório no teu terminal, segue os passos:
 1. **Clona o repositório:**
    ```bash
    git clone [https://github.com/guilhermegcastro/Estrutura-de-Dados-I.git](https://github.com/guilhermegcastro/Estrutura-de-Dados-I.git)
-````
+``
 
 2.  **Navega até à pasta desejada:**
 

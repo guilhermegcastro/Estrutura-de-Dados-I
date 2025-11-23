@@ -56,26 +56,26 @@ A pasta **`## Dojo Coding`** contém exercícios resolvidos em formato de *Codin
 
 ## 💻 Como Compilar e Executar
 
-Para rodar qualquer código deste repositório no teu terminal, segue os passos:
+Para rodar qualquer código deste repositório no teu terminal, siga os passos:
 
-1. **Clona o repositório:**
+1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/guilhermegcastro/Estrutura-de-Dados-I.git](https://github.com/guilhermegcastro/Estrutura-de-Dados-I.git)
 ``
 
-2.  **Navega até à pasta desejada:**
+2.  **Navegue até à pasta desejada:**
 
     ```bash
     cd Estrutura-de-Dados-I/02-Arrays
     ```
 
-3.  **Compila o ficheiro (exemplo):**
+3.  **Compile o arquivo (exemplo):**
 
     ```bash
     gcc nome_do_ficheiro.c -o saida
     ```
 
-4.  **Executa:**
+4.  **Execute:**
 
     ```bash
     ./saida

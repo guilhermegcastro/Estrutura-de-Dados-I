@@ -23,11 +23,11 @@ A estrutura foi pensada para mostrar a progressão da aprendizagem:
 
 | Diretório / Arquivo | Descrição |
 | :--- | :--- |
-| **`00 - Introdução I`** | Conceitos iniciais e revisão de algoritmos. |
-| **`01 - Introdução II`** | Aprofundamento na sintaxe e lógica básica. |
-| **`02 - Arrays`** | Manipulação de vetores, matrizes e strings. |
-| **`03 - Struct`** | Criação de tipos de dados personalizados e organização de registros. |
-| **`Provas`** | Resoluções de avaliações e simulados. |
+| **`#00 - Introdução I`** | Conceitos iniciais e revisão de algoritmos. |
+| **`#01 - Introdução II`** | Aprofundamento na sintaxe e lógica básica. |
+| **`#02 - Arrays`** | Manipulação de vetores, matrizes e strings. |
+| **`#03 - Struct`** | Criação de tipos de dados personalizados e organização de registros. |
+| **`## Provas`** | Resoluções de avaliações e simulados. |
 
 ---
 

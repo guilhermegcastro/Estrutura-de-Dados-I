@@ -1,8 +1,3 @@
-Com certeza. Aqui tens o código atualizado. Removi os botões de contacto (LinkedIn/Email) e criei uma secção dedicada ("Games & Coding Dojos") para destacar a parte mais prática e divertida do teu repositório.
-
-Copia o código abaixo e substitui no teu ficheiro `README.md`:
-
-````markdown
 # 📚 Estrutura de Dados I
 
 ![C Language](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white)
@@ -16,9 +11,9 @@ Copia o código abaixo e substitui no teu ficheiro `README.md`:
 
 ## 🚀 Sobre o Projeto
 
-Bem-vindo ao meu repositório de **Estrutura de Dados I**. Aqui é onde a mágica acontece e onde mergulho fundo na gestão de memória, ponteiros e lógica complexa.
+Boas-vindas ao meu repositório de **Estrutura de Dados I**.
 
-Este repositório serve como o meu portefólio académico e "segundo cérebro", documentando a minha evolução na disciplina. Aqui encontrarás desde a manipulação básica de arrays até implementações complexas de algoritmos de ordenação e jogos desenvolvidos inteiramente em C.
+Este repositório serve como o meu portefólio academico e "segundo cérebro", documentando a minha evolução na disciplina. Aqui encontrará desde a manipulação básica de arrays até implementações complexas de algoritmos de ordenação e jogos desenvolvidos inteiramente em C.
 
 ---
 
@@ -28,60 +23,59 @@ A estrutura foi pensada para mostrar a progressão da aprendizagem:
 
 | Diretório / Arquivo | Descrição |
 | :--- | :--- |
-| **`00 - Introdução I`** | Conceitos iniciais e aquecimento na linguagem C. |
-| **`01 - Introdução II`** | Aprofundamento na sintaxe e lógica básica. |
-| **`02 - Arrays`** | Manipulação de vetores, matrizes e alocação estática. |
-| **`03 - Struct`** | Criação de tipos de dados personalizados e organização de registos. |
-| **`Provas`** | Resoluções de avaliações e simulados (incluindo o simulado da 2.ª prova). |
-| **`Algoritmos`** | Implementações de *Ordenação* e *Busca Binária*. |
+| **`#00 - Introdução I`** | Conceitos iniciais e revisão de algoritmos. |
+| **`#01 - Introdução II`** | Aprofundamento na sintaxe e lógica básica. |
+| **`#02 - Arrays`** | Manipulação de vetores, matrizes e strings. |
+| **`#03 - Struct`** | Criação de tipos de dados personalizados e organização de registros. |
+| **`## Provas`** | Resoluções de avaliações e simulados. |
 
 ---
 
 ## 🎮 Games & Coding Dojos
 
-A teoria é importante, mas a prática é onde a diversão começa. Separei secções especiais para aplicações criativas:
+A teoria é importante, mas a prática é onde a diversão começa. Separei seções especiais para aplicações criativas:
 
 ### 🕹️ Games C
-Na pasta **`Games C`**, exploro a lógica de programação através do desenvolvimento de jogos. É a prova de que C não serve apenas para calcular médias ou ordenar listas!
+Na pasta **`## Games C`**, exploro a lógica de programação através do desenvolvimento de jogos. É a prova de que C não serve apenas para calcular médias ou ordenar listas!
 * *Foco:* Lógica de estado, loops de jogo e interatividade no terminal.
 
 ### 🥋 Dojo Coding
-A pasta **`Dojo Coding`** contém exercícios resolvidos em formato de *Coding Dojo*.
+A pasta **`## Dojo Coding`** contém exercícios resolvidos em formato de *Coding Dojo*.
 * *Objetivo:* Resolução colaborativa de problemas, foco em "Clean Code" e melhoria contínua da lógica algorítmica (frequentemente em colaboração, como visto nos commits).
 
 ---
 
 ## 🛠 Tecnologias e Ferramentas
 
-* **Linguagem:** C (Padrão ANSI/C99)
-* **Compilador:** GCC (GNU Compiler Collection)
-* **Editor/IDE:** VS Code / Vim
+* **Linguagem:** C (Padrão ANSI/C99) ©️
+* **Compilador:** GCC (GNU Compiler Collection) 🐂
+* **Editor/IDE:** Geany 🫖
 * **Sistema Operativo:** Linux (Manjaro) 🐧
 
 ---
 
 ## 💻 Como Compilar e Executar
 
-Para rodar qualquer código deste repositório no teu terminal, segue os passos:
+Para rodar qualquer código deste repositório no teu terminal, siga os passos:
 
-1. **Clona o repositório:**
+1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/guilhermegcastro/Estrutura-de-Dados-I.git](https://github.com/guilhermegcastro/Estrutura-de-Dados-I.git)
-````
+``
 
-2.  **Navega até à pasta desejada:**
+2.  **Navegue até à pasta desejada:**
 
     ```bash
     cd Estrutura-de-Dados-I/02-Arrays
     ```
 
-3.  **Compila o ficheiro (exemplo):**
+3.  **Compile o arquivo (exemplo):**
 
     ```bash
     gcc nome_do_ficheiro.c -o saida
     ```
 
-4.  **Executa:**
+4.  **Execute:**
 
     ```bash
     ./saida
@@ -100,15 +94,3 @@ Alguns dos conceitos chave explorados neste repositório:
   - [x] Estruturas (Structs)
 
 -----
-
-## 🤝 Autor
-
-\<div align="center"\>
-\<a href="https://www.google.com/search?q=https://github.com/guilhermegcastro"\>
-\<img src="https://www.google.com/search?q=https://github.com/guilhermegcastro.png" width="100px;" alt="Foto do Guilherme Castro"/\><br>
-\<b\>Guilherme Castro\</b\>
-\</a\>
-\</div\>
-
-```
-```

@@ -38,7 +38,6 @@ A estrutura reflete a progressão lógica do aprendizado durante o semestre:
 
 Alguns dos conceitos-chave explorados e consolidados neste repositório:
 
-- [x] **Alocação Dinâmica:** Uso de `malloc` e `free` para gestão eficiente de memória.
 - [x] **Ponteiros:** Aritmética de ponteiros e manipulação direta de endereços.
 - [x] **Modularização:** Criação de funções para código limpo e reutilizável.
 - [x] **Persistência:** Manipulação de arquivos (`fopen`, `fprintf`, `fread`) para salvar dados.

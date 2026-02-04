@@ -75,6 +75,6 @@ Para rodar qualquer código deste repositório, siga os passos no terminal:
    ```
 4. Execute:
    
-```bash
+   ```bash
    ./programa
    ```

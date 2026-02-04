@@ -73,7 +73,7 @@ Para rodar qualquer código deste repositório, siga os passos no terminal:
    ```bash
    gcc nome_do_arquivo.c -o programa
    ```
-5. Execute:
+4. Execute:
    
 ```bash
    ./programa

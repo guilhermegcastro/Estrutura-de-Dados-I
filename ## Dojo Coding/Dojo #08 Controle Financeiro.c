@@ -99,9 +99,9 @@ void pagarDespesa(FILE* f){
     int t = tamanho(f);
     Lancamento lista[t];
     fseek(f, 0, SEEK_SET);
-    fread(lista, (t+1)*size, 1, f);
+    fread(lista, t*size, 1, f);
     for (int i = 0; i < t-1; i++){
-        for (int j = 0; j < t-i-1; i++){
+        for (int j = 0; j < t-i-1; j++){
             if(lista[j].dia > lista[j+1].dia) {
                 Lancamento troca = lista[j];
                 lista[j] = lista[j+1];

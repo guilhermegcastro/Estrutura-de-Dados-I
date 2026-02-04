@@ -13,84 +13,67 @@
 
 Boas-vindas ao meu repositório de **Estrutura de Dados I**.
 
-Este repositório serve como o meu portefólio academico e "segundo cérebro", documentando a minha evolução na disciplina. Aqui encontrará desde a manipulação básica de arrays até implementações complexas de algoritmos de ordenação e jogos desenvolvidos inteiramente em C.
+Este repositório serve como o meu portfólio acadêmico e "segundo cérebro", documentando a minha evolução na disciplina. Aqui você encontrará desde a manipulação básica de arrays até a gestão complexa de memória com ponteiros e persistência de dados em arquivos.
 
 ---
 
 ## 📂 Organização dos Diretórios
 
-A estrutura foi pensada para mostrar a progressão da aprendizagem:
+A estrutura reflete a progressão lógica do aprendizado durante o semestre:
 
 | Diretório / Arquivo | Descrição |
 | :--- | :--- |
-| **`#00 - Introdução I`** | Conceitos iniciais e revisão de algoritmos. |
-| **`#01 - Introdução II`** | Aprofundamento na sintaxe e lógica básica. |
-| **`#02 - Arrays`** | Manipulação de vetores, matrizes e strings. |
-| **`#03 - Struct`** | Criação de tipos de dados personalizados e organização de registros. |
-| **`## Provas`** | Resoluções de avaliações e simulados. |
+| **`#00 - Introdução I`** | Conceitos iniciais e revisão de algoritmos básicos. |
+| **`#01 - Introdução II`** | Aprofundamento na sintaxe, tipos de dados e lógica. |
+| **`#02 - Arrays`** | Manipulação de vetores, matrizes e strings (arrays de char). |
+| **`#03 - Struct, Funções e Ponteiros`** | O "coração" de C: tipos personalizados, passagem por referência e endereçamento. |
+| **`#04 - Persistência de Dados`** | Manipulação de arquivos (`FILE*`), escrita/leitura e persistência de registros. |
+| **`## Games C`** | Desenvolvimento de jogos para aplicar lógica de estado e loops. |
+| **`## Dojo Coding`** | Exercícios focados em algoritmos e resolução de problemas. |
+| **`## Provas`** | Resoluções de avaliações e materiais de revisão. |
 
 ---
 
-## 🎮 Games & Coding Dojos
+## 🧠 Destaques de Aprendizagem
 
-A teoria é importante, mas a prática é onde a diversão começa. Separei seções especiais para aplicações criativas:
+Alguns dos conceitos-chave explorados e consolidados neste repositório:
 
-### 🕹️ Games C
-Na pasta **`## Games C`**, exploro a lógica de programação através do desenvolvimento de jogos. É a prova de que C não serve apenas para calcular médias ou ordenar listas!
-* *Foco:* Lógica de estado, loops de jogo e interatividade no terminal.
-
-### 🥋 Dojo Coding
-A pasta **`## Dojo Coding`** contém exercícios resolvidos em formato de *Coding Dojo*.
-* *Objetivo:* Resolução colaborativa de problemas, foco em "Clean Code" e melhoria contínua da lógica algorítmica (frequentemente em colaboração, como visto nos commits).
+- [x] **Alocação Dinâmica:** Uso de `malloc` e `free` para gestão eficiente de memória.
+- [x] **Ponteiros:** Aritmética de ponteiros e manipulação direta de endereços.
+- [x] **Modularização:** Criação de funções para código limpo e reutilizável.
+- [x] **Persistência:** Manipulação de arquivos (`fopen`, `fprintf`, `fread`) para salvar dados.
+- [x] **Algoritmos:** Ordenação, busca e manipulação de estruturas compostas.
 
 ---
 
 ## 🛠 Tecnologias e Ferramentas
 
-* **Linguagem:** C (Padrão ANSI/C99) ©️
+* **Linguagem:** C (Padrão C99/C11) ©️
 * **Compilador:** GCC (GNU Compiler Collection) 🐂
-* **Editor/IDE:** Geany 🫖
+* **Editor/IDE:** Geany / VS Code 🫖
 * **Sistema Operativo:** Linux (Manjaro) 🐧
 
 ---
 
 ## 💻 Como Compilar e Executar
 
-Para rodar qualquer código deste repositório no teu terminal, siga os passos:
+Para rodar qualquer código deste repositório, siga os passos no terminal:
 
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/guilhermegcastro/Estrutura-de-Dados-I.git](https://github.com/guilhermegcastro/Estrutura-de-Dados-I.git)
-``
 
-2.  **Navegue até à pasta desejada:**
+    Navegue até a pasta desejada (exemplo):
+    Bash
 
-    ```bash
-    cd Estrutura-de-Dados-I/02-Arrays
-    ```
+cd Estrutura-de-Dados-I/"#03 - Struct, Funções e Ponteiros"
 
-3.  **Compile o arquivo (exemplo):**
+Compile o arquivo:
+Bash
 
-    ```bash
-    gcc nome_do_ficheiro.c -o saida
-    ```
+gcc nome_do_arquivo.c -o programa
 
-4.  **Execute:**
+Execute:
+Bash
 
-    ```bash
-    ./saida
-    ```
-
------
-
-## 🧠 Destaques de Aprendizagem
-
-Alguns dos conceitos chave explorados neste repositório:
-
-  - [x] Alocação de Memória
-  - [x] Ponteiros e Aritmética de Ponteiros
-  - [x] Recursividade
-  - [x] Algoritmos de Ordenação (Bubble, Selection, Insertion, etc.)
-  - [x] Estruturas (Structs)
-
------
+./programa

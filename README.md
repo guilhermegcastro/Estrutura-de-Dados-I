@@ -61,18 +61,17 @@ Para rodar qualquer código deste repositório, siga os passos no terminal:
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/guilhermegcastro/Estrutura-de-Dados-I.git](https://github.com/guilhermegcastro/Estrutura-de-Dados-I.git)
-
+   ```
     Navegue até a pasta desejada (exemplo):
-    Bash
 
-cd Estrutura-de-Dados-I/"#03 - Struct, Funções e Ponteiros"
-
+    ```bash
+   cd Estrutura-de-Dados-I/"#03 - Struct, Funções e Ponteiros"
+   ```
 Compile o arquivo:
-Bash
-
-gcc nome_do_arquivo.c -o programa
-
+   ```bash
+   gcc nome_do_arquivo.c -o programa
+   ```
 Execute:
-Bash
-
-./programa
+```bash
+   ./programa
+   ```

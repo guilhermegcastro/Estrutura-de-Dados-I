@@ -15,7 +15,9 @@ Boas-vindas ao meu repositório de **Estrutura de Dados I**.
 
 Este repositório serve como o meu portfólio acadêmico e "segundo cérebro", documentando a minha evolução na disciplina. Aqui você encontrará desde a manipulação básica de arrays até a gestão complexa de memória com ponteiros e persistência de dados em arquivos, com base nos exercícios propostos pelo professor Adriano Prates
 
-<img src="https://github.com/guilhermegcastro/Estrutura-de-Dados-I/blob/main/images/programming.gif" width="400px" />
+<p align="center">
+  <img src="https://github.com/guilhermegcastro/Estrutura-de-Dados-I/raw/main/images/programming.gif" width="400px" />
+</p>
 
 ---
 
